@@ -1,0 +1,98 @@
+/* Global styling */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*---------------------------------------------------------------*/
+/*Header styling*/
+#empty-navbar {
+  background-color: #9de1eca9;
+  height: 90px;
+}
+.top-content {
+  text-align: center;
+  margin-top: 150px;
+}
+nav > div > img {
+  margin-top: 20px;
+  border-radius: 50%;
+  position: absolute;
+  width: 200px;
+}
+nav > div {
+  text-align: center;
+  margin-right: 186px;
+}
+hr{
+    margin: 0 40px;
+    /* color: #9de1eca9; */
+    border-color: #9de1eca9;
+}
+/*-------------------------------------------------------------------*/
+/*Main section styling*/
+main{
+    display: flex;
+    justify-content:space-around;
+}
+.vertical-line {
+  border-left: 2px solid #9de1eca9;
+  height: 1360px;
+}
+.reach-me a{
+ text-decoration: none;
+ color: blue;
+}
+.left{
+    display:grid;
+    justify-content: space-between;
+    /* width: 50%; */
+}
+.right{
+    width: 50%;
+    display: grid;
+    justify-content: space-between;
+}
+.certifications p{
+    display: inline-block;
+}
+.certifications span a{
+    border: 1px solid green;
+    border-radius: 25px;
+    display: inline-block;
+    height: 25px;
+    width: 130px;
+    text-align:center;
+    padding-top: 6px;
+}
+
+.certifications span a{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    width:130px;
+}
+.certifications span a:hover{
+
+    background-color: white;
+    color: black;
+}
+.certifications i{
+    color: blue;
+}
+/*----------------------------------------------------------------------------*/
+/* Footer section Style */
+footer div{
+    height: 80px;
+    background-color: #9de1eca9;
+    text-align: center;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.f-content{
+    margin-top: 10px;
+}
+.f-content i{
+    color: blue;
+}
